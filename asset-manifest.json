@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-infinite-scrolling-and-lazy-loading-from-api/static/css/main.227c123e.chunk.css",
+    "main.js": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/main.00c83e64.chunk.js",
+    "main.js.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/main.00c83e64.chunk.js.map",
+    "runtime-main.js": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/runtime-main.31af3869.js",
+    "runtime-main.js.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/runtime-main.31af3869.js.map",
+    "static/css/2.a95be28f.chunk.css": "/react-infinite-scrolling-and-lazy-loading-from-api/static/css/2.a95be28f.chunk.css",
+    "static/js/2.3595d10a.chunk.js": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/2.3595d10a.chunk.js",
+    "static/js/2.3595d10a.chunk.js.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/2.3595d10a.chunk.js.map",
+    "static/js/3.08e0f3ef.chunk.js": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/3.08e0f3ef.chunk.js",
+    "static/js/3.08e0f3ef.chunk.js.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/3.08e0f3ef.chunk.js.map",
+    "index.html": "/react-infinite-scrolling-and-lazy-loading-from-api/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.227c123e.chunk.css.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/css/main.227c123e.chunk.css.map",
+    "static/js/2.3595d10a.chunk.js.LICENSE.txt": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/2.3595d10a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31af3869.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.3595d10a.chunk.js",
+    "static/css/main.227c123e.chunk.css",
+    "static/js/main.00c83e64.chunk.js"
+  ]
+}
