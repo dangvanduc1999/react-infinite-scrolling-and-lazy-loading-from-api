@@ -16,16 +16,20 @@ export default function useArticlesQuery(query, pageNumber) {
         let cancel
         setLoading(true);
         setError(false);
-        let url = `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}&page=${pageNumber}&pageSize=${PAGE_SIZE}&domains=techcrunch.com,`;
+        let url = `https://newsdata.io/api/1/news?apiKey=${API_KEY}&page=${pageNumber}`;
+        if (query) {
+            url += `&q=${query}`
+        }
         axios({
             method: 'GET',
             url: url,
             cancelToken: new axios.CancelToken(c => cancel = c)
         }).then(res => {
+            console.log(res.data)
             setArticles(prevArticles => {
-                return [...new Set([...prevArticles, ...res.data.articles])]
+                return [...new Set([...prevArticles, ...res.data.results])]
             })
-            setHasMore(pageNumber < Math.ceil(res.data.totalResults/PAGE_SIZE))
+            setHasMore(res.data.nextPage)
             setLoading(false)
         }).catch(e => {
             setLoading(false)

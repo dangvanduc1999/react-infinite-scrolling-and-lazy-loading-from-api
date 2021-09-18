@@ -2,8 +2,8 @@ import useArticlesQuery from "./useArticlesQuery";
 import {useCallback, useRef, useState} from "react";
 import { Spin, Input, Col, Row } from 'antd';
 import "./assets/css/ArticlesPage.css";
-import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-
+import 'antd/dist/antd.css';
+import VietnamPicture from "./assets/images/vietname.jpg";
 
 const RenderArticle = (props) => {
     const {
@@ -12,7 +12,7 @@ const RenderArticle = (props) => {
     return (
         <Row>
             <Col xs={24} sm={24} md={8} lg={6} className="article_image_wrapper">
-                <img src={article["urlToImage"]} alt=""/>
+                <img src={article["image_url"] ?? VietnamPicture} alt=""/>
             </Col>
             <Col xs={24} sm={24} md={16} lg={18} className="article_content">
                 <a href={article["url"]} target="_blank" className="article_title">
