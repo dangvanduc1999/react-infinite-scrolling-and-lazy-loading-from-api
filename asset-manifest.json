@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-infinite-scrolling-and-lazy-loading-from-api/static/css/main.62eb1b98.chunk.css",
-    "main.js": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/main.c77fe569.chunk.js",
-    "main.js.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/main.c77fe569.chunk.js.map",
+    "main.js": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/main.f9898e3d.chunk.js",
+    "main.js.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/main.f9898e3d.chunk.js.map",
     "runtime-main.js": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/runtime-main.31af3869.js",
     "runtime-main.js.map": "/react-infinite-scrolling-and-lazy-loading-from-api/static/js/runtime-main.31af3869.js.map",
     "static/css/2.a95be28f.chunk.css": "/react-infinite-scrolling-and-lazy-loading-from-api/static/css/2.a95be28f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.3595d10a.chunk.js",
     "static/css/main.62eb1b98.chunk.css",
-    "static/js/main.c77fe569.chunk.js"
+    "static/js/main.f9898e3d.chunk.js"
   ]
 }
