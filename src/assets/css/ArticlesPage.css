@@ -67,6 +67,27 @@
     overflow-y: auto;
 }
 
+.articles_page_body.horizontal {
+    overflow-y: unset;
+    /*height: 320px;*/
+    overflow-x: auto;
+    width: calc(100% - 60px);
+    display: flex;
+    height: unset;
+    margin: auto;
+}
+
+.articles_page_body.horizontal .article_image_wrapper {
+    width: 200px;
+}
+
+.articles_page_body.horizontal .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+}
+
 .search_input .ant-input-affix-wrapper {
     padding: 0 0.5rem;
 }
